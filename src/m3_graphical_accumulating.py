@@ -97,6 +97,10 @@ def draw_parallel_lines(n, point, length, window):
     """
     for k in range(n):
 
+        line.attach_to(window)
+    window.render()
+
+
     # ------------------------------------------------------------------
     # TODO: 2. Implement and test this function.
     #          Tests have been written for you (above).
